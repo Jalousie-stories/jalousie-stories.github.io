@@ -195,6 +195,15 @@ section h2 {
   border-bottom: 1px solid var(--border);
 }
 
+/* Covers that are taller than 3:4 are trimmed away from their title. */
+.card img.pos-top {
+  object-position: center top;
+}
+
+.card img.pos-bottom {
+  object-position: center bottom;
+}
+
 .card-body {
   display: flex;
   flex-direction: column;
